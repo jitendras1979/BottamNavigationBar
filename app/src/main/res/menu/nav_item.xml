@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_recent"
+        android:enabled="true"
+        android:icon="@drawable/bot"
+        android:title="Bot"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_favirote"
+        android:enabled="true"
+        android:icon="@drawable/camera"
+        android:title="Camera"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_nearby"
+        android:enabled="true"
+        android:icon="@drawable/cloud"
+        android:title="Cloud"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+</menu>
